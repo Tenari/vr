@@ -129,3 +129,11 @@ For people who like the action side of things (agressive) they can either go har
 - missiles
 - well-modeled Sabre-ship equivalent that you can walk around in, or sit in the pilots chair to pilot. Can visit empty cargo bay, go through internal door, etc.
 - a space station you can land at
+
+## Issues to think about
+
+ui is gonna be very important for makeing the game not annoying to play. Since this typical sort of game in a non-vr environment would pretty quickly become a spreadsheet simulator with space cutscenes, and interacting with 2d ui elements in vr can be done very poorly, we need to have a way to either make our necessary 2d ui components easy to use, or make 3D ui elements that feel more natural/fun to use. 
+
+Example: you'll need to be able to search a database for jobs that are available to take. A searchbar and a results table would work naturally for this in a normal computer game, but typing in search criteria via a ui keyboard in vr is extremely annoying.
+
+Possible solution: create a series of binary togglable filters which merely require point-and-click action, which is pretty simple, if the buttons are big enough.
